@@ -1,14 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace PlayGround.Samples
+﻿namespace PlayGround.Games
 {
-    public static class Factorial 
+    public class Factorial : Game
     {
-        public static void FindFactorial(this SampleObject sample)
+        public  override void StartGame()
         {
             Console.WriteLine("Enter the Number");
             int n = int.Parse(Console.ReadLine());
