@@ -1,0 +1,9 @@
+using PlayGround;
+namespace PlayGround.Games;
+public class GameNotFound : Game
+{
+    public GameNotfound()
+    {
+        Console.WriteLine("Game not found");
+    }
+}

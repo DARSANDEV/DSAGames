@@ -20,6 +20,7 @@ do
     
     //var sampleObj = new SampleObject();
     Game game = chosenGame.CreateGame();
+    game.GameDescription();
     game.StartGame();
     Console.WriteLine("--------------- Game completed -------------------");
     Console.WriteLine(" Press 1 to try again ");
