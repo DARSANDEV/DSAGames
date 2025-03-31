@@ -11,7 +11,7 @@ public static class GameFactory {
             GameNames.SuperReducedString=> new SuperReducedString(),
             GameNames.FibonacciTriangle => new FibonacciTriangle(),
             GameNames.Hcf => new Hcf(),
-            _ => throw new ArgumentException($"Invalid game type {gameName}")
+            _ => new GameNotFound()
         };
     }
 }
