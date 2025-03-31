@@ -5,7 +5,6 @@ public class GameNotFound : Game
     
      public override void StartGame()
     {
-        Console.WriteLine("Game not found");
-
+        Console.WriteLine("Please Select a valid Game");
     }
 }
