@@ -1,6 +1,10 @@
 
 public enum GameNames 
 {
-    FindFactorial,
-    Palindrome  
+    FindFactorial =1,
+    Palindrome,
+    MergeSort,
+    SuperReducedString,
+    FibonacciTriangle,
+    Hcf
 }

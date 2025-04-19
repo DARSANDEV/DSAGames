@@ -7,7 +7,11 @@ public static class GameFactory {
         return gameName switch {
             GameNames.FindFactorial => new Factorial (),
             GameNames.Palindrome => new Palindrome(),
-            _ => throw new ArgumentException("Invalid game type")
+            GameNames.MergeSort=> new MergeSort(),
+            GameNames.SuperReducedString=> new SuperReducedString(),
+            GameNames.FibonacciTriangle => new FibonacciTriangle(),
+            GameNames.Hcf => new Hcf(),
+            _ => new GameNotFound()
         };
     }
 }
