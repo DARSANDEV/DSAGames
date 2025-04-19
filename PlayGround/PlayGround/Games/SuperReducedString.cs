@@ -31,6 +31,7 @@ public class SuperReducedString : Game
         var input = Console.ReadLine();
 
         string result = superReducedString(input);
+        System.Console.WriteLine($"result : {result}");
     }
      public static string superReducedString(string s)
     {
