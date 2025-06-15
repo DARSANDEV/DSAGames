@@ -10,7 +10,7 @@
             Console.WriteLine($"The factorial is {output}");
         } 
 
-        private static int Fact(int num)
+        private static long Fact(long num)
         {
             if (num ==0 || num == 1)
             {
